@@ -1,8 +1,11 @@
 package rocks.zipcodewilmington;
 
+import org.junit.Assert;
 import org.junit.Test;
+import rocks.zipcodewilmington.animals.Cat;
 import rocks.zipcodewilmington.animals.Dog;
 import rocks.zipcodewilmington.animals.animal_creation.AnimalFactory;
+import rocks.zipcodewilmington.animals.animal_storage.CatHouse;
 import rocks.zipcodewilmington.animals.animal_storage.DogHouse;
 
 import java.util.Date;
@@ -15,6 +18,11 @@ public class DogHouseTest {
     // TODO - Create tests for `void remove(Integer id)`
     // TODO - Create tests for `void remove(Dog dog)`
     // TODO - Create tests for `Dog getDogById(Integer id)`
+
+
+
+
+
     // TODO - Create tests for `Integer getNumberOfDogs()`
 
     @Test
